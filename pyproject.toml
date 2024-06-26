@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "emkademy"
+name = "rishikeshdhayarkar"
 version = "0.1.0"
 description = ""
-authors = ["Kıvanç Yüksel <emkademy@gmail.com>"]
+authors = ["Rishikesh Dhayarkar <rishikeshdhayarkar1091@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 hydra-core = "~=1.3.2"
 pydantic = "~=1.10.7"
+google-cloud-secret-manager = "~=2.20.0"
+dvc = {version = "3.51.2", extras = ["gdrive", "gs"]}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "~=7.3"
