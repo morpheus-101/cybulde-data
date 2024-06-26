@@ -46,5 +46,8 @@ COPY ./docker/scripts/* /
 RUN chown -R ${USER_NAME} /*.sh && chmod +x /*.sh
 USER ${USER_NAME}
 
+RUN git config --global user.email "rishikeshdhayarkar1091@gmail.com" \
+    && git config --global user.name "rishikeshdhayarkar"
+
 COPY . /app/
 CMD ["/startup-script.sh"]
