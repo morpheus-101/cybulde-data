@@ -12,3 +12,5 @@ class Config:
 def setup_config() -> None:
     cs = ConfigStore.instance()
     cs.store(name="config_schema", node=Config)
+
+dvc push "data/raw".dvc --remote "gcs-storage"
