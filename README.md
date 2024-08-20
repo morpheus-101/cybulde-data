@@ -1,7 +1,15 @@
-# Project Title
+# Hate speech detection
 
-## Description
-This project aims to detect and classify hate speech, toxic comments, and cyberbullying content using machine learning techniques. It utilizes a combination of publicly available datasets to train and evaluate the models.
+## Overview
+This project aims to detect and classify hate speech, toxic comments, and cyberbullying content using machine learning techniques. It utilizes a combination of publicly available datasets to train and evaluate the models. Distributed data preprocessing, distributed model training, dataset and model deployment, model monitoring all done on Google Cloud Platform. 
+
+The project is divided into four parts:
+- Part 1: [Data collection and versioning]
+- Part 2: [Distributed data preparation]
+- Part 3: [Distributed model training and evaluation]
+- Part 4: [Deployment and web app]
+
+This repository includes code for Part 1 only. 
 
 ## Tools and Technologies
 - **Docker**: The project is set up to run within a Docker container, ensuring a consistent and reproducible environment.
@@ -16,12 +24,11 @@ The project utilizes the following datasets:
 3. **Cyberbullying Tweets Dataset**: A dataset of tweets labeled as either cyberbullying or non-cyberbullying. [Link](https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset)
 
 ## Data Versioning and Storage
-The project uses DVC for data versioning and GCS for remote storage of the datasets. The versioning information is stored on GitHub using Git tags, allowing the team to reference specific versions of the datasets.
+The project uses DVC for data versioning and GCS for remote storage of the datasets. The versioning information is stored on GitHub using Git tags, allowing to reference specific versions of the datasets.
 
 To fetch a specific version of the dataset, you can use the corresponding Git tag.
 
-## Contributing
-Contributions to this project are welcome. Please follow the steps outlined in the [Contributing](#contributing) section of the README.
+## Credits
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
