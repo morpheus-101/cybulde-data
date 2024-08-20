@@ -1,4 +1,4 @@
-# Cyber bullying detection
+# Cyberbullying Detection
 
 ## 📚 Project Overview
 This project is focused on developing a deep learning model to detect and classify hate speech, toxic comments, and cyberbullying content on online platforms. The key goal is to create a robust, scalable, and reproducible MLOps pipeline for building and serving deep learning projects to the cloud.
@@ -25,7 +25,7 @@ This repository includes code for Part 1 only.
 
 # Part 1:
 
-## Tools and Technologies
+## Key Tools and Technologies
 - **DVC (Data Version Control)**: DVC is used for data versioning, allowing the team to track changes in the dataset over time and reference specific versions using Git tags.
 - **Google Cloud Storage (GCS)**: The dataset is stored in a GCS bucket, providing a reliable and scalable remote storage solution for the versioned data.
 - **GitHub**: GitHub is used for version control of the project code and to store the metadata and tags associated with the versioned datasets.
