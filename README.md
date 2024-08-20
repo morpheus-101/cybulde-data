@@ -1,14 +1,15 @@
 # Hate speech and Toxicity detection
 
-## Project Overview
+## 📚 Project Overview
 This project is focused on developing advanced machine learning models to detect and classify hate speech, toxic comments, and cyberbullying content from online platforms. By leveraging a diverse set of publicly available datasets, our goal is to create robust and accurate models that can help combat the growing problem of online toxicity and harassment.
 
-Ensuring Reproducibility and Maintainability
+🛠️ Ensuring Reproducibility and Maintainability
 - Docker Containerization: The entire project, including its dependencies and runtime environment, is packaged into a Docker container. This ensures that the application can be consistently deployed and executed across different platforms, eliminating the risk of environmental discrepancies.
 - Data Version Control with DVC: The project utilizes DVC (Data Version Control) to manage and track changes in the dataset over time. This allows the team to reference specific versions of the data, enabling reproducible experiments and facilitating seamless model retraining as new data becomes available.
 - Distributed Data Processing with Dask: The preprocessing of the large datasets is handled using the Dask distributed computing framework. This enables efficient data transformation and feature engineering, ensuring scalability and optimizing resource utilization.
 - Distributed Model Training with PyTorch: The model training process is parallelized using PyTorch's distributed training capabilities, leveraging multiple GPUs or CPU cores to accelerate the training process and improve model performance.
 - Cloud-based Infrastructure: The project is deployed and managed on the Google Cloud Platform (GCP), taking advantage of its robust and scalable infrastructure. This includes the use of Google Cloud Storage for secure data storage, Google Artifact Registry for Docker image management, and Mlflow for comprehensive model tracking and performance evaluation.
+- Configuration management using Hydra: The entire project uses Hydra-core to manage configurations across all components. This improves configuration management and enhances reproducibility.
 
 The project is divided into four parts:
 - Part 1: [Data collection and versioning]()
