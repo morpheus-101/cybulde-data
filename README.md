@@ -4,10 +4,10 @@
 This project aims to detect and classify hate speech, toxic comments, and cyberbullying content using machine learning techniques. It utilizes a combination of publicly available datasets to train and evaluate the models. Distributed data preprocessing, distributed model training, dataset and model deployment, model monitoring all done on Google Cloud Platform. 
 
 The project is divided into four parts:
-- Part 1: [Data collection and versioning]
-- Part 2: [Distributed data preparation]
-- Part 3: [Distributed model training and evaluation]
-- Part 4: [Deployment and web app]
+- Part 1: [Data collection and versioning]()
+- Part 2: [Distributed data preparation]()
+- Part 3: [Distributed model training and evaluation]()
+- Part 4: [Deployment and web app]()
 
 This repository includes code for Part 1 only. 
 
@@ -19,8 +19,8 @@ This repository includes code for Part 1 only.
 
 ## Datasets
 The project utilizes the following datasets:
-1. **GAB Hate Corpus**: A dataset of hate speech collected from the social media platform Gab. [Link](https://osf.io/edua3/)
-2. **Toxic Comments Classification Challenge**: A dataset of comments from Wikipedia's talk page edits, labeled for various toxicity types. [Link](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+1. **GAB Hate Corpus**: The GHC, which is the largest theoretically-justified, annotated corpus of hate speech to date, provides opportunities for training and evaluating hate speech classifiers and for scientific inquiries into the linguistic and network components of hate speech. [Link](https://osf.io/edua3/)
+2. **Toxic Comments Classification Challenge**: A dataset with a large number of Wikipedia comments which have been labeled by human raters for toxic behavior. The types of toxicity are: toxic, severe_toxic, obscene, threat, insult, identity_hate [Link](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
 3. **Cyberbullying Tweets Dataset**: A dataset of tweets labeled as either cyberbullying or non-cyberbullying. [Link](https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset)
 
 ## Data Versioning and Storage
