@@ -1,6 +1,6 @@
 # Hate speech and Toxicity detection
 
-## Overview
+## Project Overview
 This project is focused on developing advanced machine learning models to detect and classify hate speech, toxic comments, and cyberbullying content from online platforms. By leveraging a diverse set of publicly available datasets, our goal is to create robust and accurate models that can help combat the growing problem of online toxicity and harassment.
 
 Ensuring Reproducibility and Maintainability
@@ -17,6 +17,9 @@ The project is divided into four parts:
 - Part 4: [Deployment and web app]()
 
 This repository includes code for Part 1 only. 
+
+---
+Details about this repo (Part1):
 
 ## Tools and Technologies
 - **Docker**: The project is set up to run within a Docker container, ensuring a consistent and reproducible environment.
