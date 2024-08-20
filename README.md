@@ -1,4 +1,4 @@
-# Hate speech and Toxicity detection
+# Cyber bullying detection
 
 ## 📚 Project Overview
 This project is focused on developing a deep learning model to detect and classify hate speech, toxic comments, and cyberbullying content on online platforms. The key goal is to create a robust, scalable, and reproducible MLOps pipeline for building and serving deep learning projects to the cloud.
