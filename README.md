@@ -42,5 +42,3 @@ The project utilizes the following datasets:
 
 ## Credits
 
-## License
-This project is licensed under the [MIT License](LICENSE).
