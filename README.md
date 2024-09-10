@@ -14,10 +14,10 @@ This project is focused on developing a deep learning model to detect and classi
 - **Configuration Management with Hydra**: Employs Hydra-core for streamlined configuration management and enhanced reproducibility.
 
 The project is divided into four parts(each in its own repo):
-- Part 1: [Data collection and versioning]()
-- Part 2: [Distributed data processing]()
-- Part 3: [Distributed model training and evaluation]()
-- Part 4: [Deployment and web app]()
+- Part 1: [Data collection and versioning](https://github.com/morpheus-101/cybulde-data)
+- Part 2: [Distributed data processing](https://github.com/morpheus-101/cybulde-data-preparation)
+- Part 3: [Distributed model training and evaluation](https://github.com/morpheus-101/cybulde-model)
+- Part 4: [Deployment and web app](https://github.com/morpheus-101/cybulde-web-app)
 
 This repository includes code for Part 1 only. 
 
@@ -40,5 +40,4 @@ The project utilizes the following datasets:
 2. **Toxic Comments Classification Challenge**: A dataset with a large number of Wikipedia comments which have been labeled by human raters for toxic behavior. The types of toxicity are: toxic, severe_toxic, obscene, threat, insult, identity_hate [Link](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
 3. **Cyberbullying Tweets Dataset**: A dataset of tweets labeled as either cyberbullying or non-cyberbullying. [Link](https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset)
 
-## Credits
 
